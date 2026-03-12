@@ -1,0 +1,629 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+display: flex;
+padding: 36px 0 0;
+justify-content: space-between;
+ background-color: #EFEFF2;
+
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    text-decoration: none; 
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color:#19191C;
+    text-decoration: none;
+    
+}
+
+.btn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+
+.header__link{
+   color: #19191C;
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 600;
+   text-decoration: none;
+}
+.header__btn{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0 40px !important;
+    background: #EFEFF2 url(../img/girl1.png) right bottom no-repeat !important;
+    position: relative;
+}
+.offer__holder{
+    width: 430px;
+    background-image: ur;
+}
+.offer__title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.offer__description{
+    width: 648px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.offer__list{
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+   
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer__InVision{
+    
+    top: 80px;
+    right: 80px;
+}
+.offer__ProtoPie{
+    top: 1px;
+    right: 480px;
+}
+.offer__Miro{
+top: 100px;
+left: 750px;
+}
+.offer__Photoshop{
+top: 200px;
+left: 650px;
+}
+.offer__Figma{
+top: 500px;
+left: 570px;
+}
+.offer__Illustrator{
+top: 290px;
+left: 500px;
+}
+.color {
+    background-color: #19191C;
+    color: #fff;
+    padding: 60px 0 40px;
+    text-decoration: none;
+}
+footer.color .logo img {
+    width: 6px;
+    height: auto;
+    margin-right: 10px;
+}
+.footer-logo img {
+    width: 42px;
+    height: 36px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+footer.color a {
+    text-decoration: none !important;
+}
+.footer__columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    gap: 40px;                             
+    max-width: 1440px;                      
+    margin: 0 auto;                        
+    padding: 0 20px;                       
+    box-sizing: border-box;
+}
+.footer-copyright {
+    grid-column: 1 / -1;   
+    text-align: center;
+    color: #bfbfbf;
+    margin-top: 40px;
+}
+
+.footer__columns {
+    align-items: start !important;          /* ← все 5 колонок прижимаются к верху */
+}
+
+.footer__column:first-child {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.footer-logo {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* если у h6 есть дефолтный margin от браузера или стилей */
+.sitemap__title {
+    margin-top: 0 !important;
+}
+
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px;                              
+  max-width: 1440px;                      
+  margin: 0 auto;                         
+  padding: 0 20px;                        
+  box-sizing: border-box;
+}
+
+.portfolio_intership_sertificate {
+    
+  padding: 30px 40px;          
+}
+
+.portfolio__text {
+  background: #e8f5e9;
+  padding: 30px 40px;          
+}
+
+.intership__text {
+  background: #F3F3D7;
+  padding: 30px 40px;          
+}
+
+.sertificate__text {
+  background: #EFDEEE;
+  padding: 30px 40px;
+}      
+
+
+
+
+
+.discover{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+                                 
+  max-width: 1440px;                      
+  margin: 0 auto;                         
+  padding: 60px 20px;                     
+  box-sizing: border-box;
+}
+.base ul, .optimal ul, .premium ul {
+    margin: 0 0 20px 0;      
+    padding-left: 35px;
+flex-grow: 1;
+}
+.base {
+  background: #e8f5e9;         
+}
+
+.optimal {
+  background: #3f51b5;       
+  color: white;
+}
+
+.premium {
+   background: #e8f5e9;  
+}
+.base, .optimal, .premium {
+    padding: 30px 40px;
+    display: flex !important;                
+    flex-direction: column; 
+    min-height: unset;
+    height: auto;
+}
+
+.base button,
+.optimal button,
+.premium button {
+    margin-top: auto;}
+
+.profession__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;   
+  gap: 60px;                            
+  
+}
+.profession__counter-salarydescription {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;          /* відстань від тексту до лінії */
+}
+
+.profession__counter-salarydescription::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;                  /* товщина лінії */
+  background: #19191C;          /* чорний колір */
+}
+.profession__counter-description:not(:last-child) {  /* все крім останнього з класом */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.profession__counter-description:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #19191C;
+}
+.started-button {
+  background: #3f51b5;               /* синій фон, як на скріншоті */
+  color: white;                      /* білий текст */
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;                  /* жирний текст */
+  font-size: 18px;                   /* розмір тексту */
+  line-height: 22px;
+  border: none;
+  border-radius: 0px;                /* невеликі кути */
+  cursor: pointer;
+  width: 141px;                      /* ширина 141px */
+  height: 54px;                      /* висота 54px */
+  padding: 16px 37px;                /* відступи: top/bottom 16px, left/right 37px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;                         /* gap 10px, якщо будуть іконки */
+  
+}
+
+.started-button:hover {
+  background: #303f9f;               /* трохи темніший синій при наведенні */
+}
+.offer__sale {
+  font-weight: 700;
+  font-size: 48px;
+}
+.offer__time {
+ font-weight: 700;
+  font-size: 20px;   
+}
+.blue__line {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.blue__line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #3f51b5;  /* синій колір, як ти просив раніше */
+}
+
+
+.white-section {
+    background-color: #EFEFF2;
+}
+.btnn {
+      background: black;               /* синій фон, як на скріншоті */
+  color: white;                      /* білий текст */
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;                  /* жирний текст */
+  font-size: 18px;                   /* розмір тексту */
+  line-height: 22px;
+  border: none;
+  border-radius: 0px;                /* невеликі кути */
+  cursor: pointer;
+  width: 141px;                      /* ширина 141px */
+  height: 54px;                      /* висота 54px */
+  padding: 16px 37px;                /* відступи: top/bottom 16px, left/right 37px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;  
+}
+.bttnn {
+     background: white;               /* синій фон, як на скріншоті */
+  color: blue;                      /* білий текст */
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;                  /* жирний текст */
+  font-size: 18px;                   /* розмір тексту */
+  line-height: 22px;
+  border: none;
+  border-radius: 0px;                /* невеликі кути */
+  cursor: pointer;
+  width: 141px;                      /* ширина 141px */
+  height: 54px;                      /* висота 54px */
+  padding: 16px 37px;                /* відступи: top/bottom 16px, left/right 37px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;     
+}
+
+
+
+
+
+.header {
+    padding: 20px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header__box {
+    flex-wrap: wrap;
+    gap: 24px 48px;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 901px) {
+    .header {
+        padding: 16px 0 !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 12px !important;
+    }
+
+    .header__box {
+        width: 100% !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 12px !important;
+    }
+
+    .nav {
+        width: 100% !important;
+    }
+
+    .nav__list {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 12px !important;
+        font-size: 16px !important;
+        margin: 0 !important;
+        padding: 0 0 0 0 !important;
+        width: 100% !important;
+    }
+
+    .btn-box {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 12px !important;
+        width: 100% !important;
+        margin-top: 8px !important;
+    }
+
+    .header__link,
+    .header__btn {
+        font-size: 15px !important;
+        padding: 8px 0 !important;
+        text-align: left !important;
+        width: 100% !important;
+    }
+
+    .header__btn {
+        background: #19191C !important;
+        color: #EFEFF2 !important;
+        border-radius: 4px !important;
+        padding: 10px 16px !important;
+        max-width: 160px !important;
+        text-align: center !important;
+    }
+
+    .container {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+
+/* Offer — десктоп */
+@media (min-width: 992px) {
+    .offer {
+        background: url(../img/girl1.png) right bottom no-repeat;
+        background-size: auto 100%;
+    }
+
+    .offer__holder {
+        max-width: 560px !important;
+    }
+
+    .offer__list {
+        position: absolute !important;
+        inset: 0 !important;
+        pointer-events: none !important;
+    }
+
+    .offer__item {
+        pointer-events: auto !important;
+        font-size: 17px !important;
+        padding: 12px 26px !important;
+    }
+}
+
+/* Offer — мобильные: картинка по центру снизу */
+@media (max-width: 991px) {
+    .offer {
+        background: #EFEFF2 url(../img/girl1.png) center bottom no-repeat !important;
+        background-size: 240px auto !important;           /* маленькая ширина, пропорции сохраняются */
+        background-position: center calc(100% - 20px) !important;  /* чуть выше самого низа, чтобы не обрезалась */
+        padding-bottom: 320px !important;                 /* место именно под картинку + небольшой запас */
+        min-height: 680px !important;                     /* чтобы блок не сжимался слишком */
+    }
+
+  
+
+    .offer__list {
+        position: static !important;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 12px !important;
+        margin: 32px 0 0 !important;
+        padding: 0 8px !important;
+    }
+
+  .offer__holder {
+        background: rgba(239, 239, 242, 0.92) !important;
+        padding: 20px !important;
+        border-radius: 12px !important;
+        margin-bottom: 32px !important;
+        z-index: 2 !important;
+    }
+
+
+    .offer__item {
+        position: static !important;
+        padding: 8px 12px !important;
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    .offer__title {
+        font-size: 2.4rem !important;
+    }
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/* Если где-то остался скролл — принудительно */
+section, main, .offer, .profession, .portfolio-grid, .discover {
+    overflow-x: hidden;
+}
+@media (max-width: 767px) {
+  /* Profession — одна колонка, по центру */
+  .profession__grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    text-align: center !important;
+  }
+
+  /* Portfolio / Internship / Certificate — одна колонка, по центру */
+  .portfolio-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    text-align: center !important;
+  }
+
+  /* Discover — одна колонка */
+  .discover {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    text-align: center !important;
+  }
+
+  /* Футер — одна колонка, текст слева или по центру */
+  footer.color {
+    text-align: left !important;
+    padding: 40px 15px !important;
+  }
+
+  .footer__columns {
+    display: block !important;
+    gap: 20px !important;
+  }
+
+  .footer__column {
+    margin-bottom: 20px !important;
+  }
+
+  .footer-copyright {
+    text-align: left !important;
+    margin-top: 20px !important;
+  }
+}
+
+
